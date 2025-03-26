@@ -1,0 +1,67 @@
+/* Style main site */
+div[data-testid="stMain"] {
+    background-color: yellow;
+}
+
+/* Style sidebar */
+
+
+div[data-testid="stSidebar"] {
+    background-color: #000000 !important;
+    padding: 20px;
+    width: 150px;
+}
+
+div[data-testid="stSidebarContent"],
+div[data-testid="stSidebarNavItems"] span {
+    width: 90%;
+    }
+
+div[data-testid="stSidebarNav"]::before{
+    content: "Michi's Games";
+                margin-left: 20px;
+                margin-top: 0px;
+                font-size: 30px;
+                position: relative;
+                top: 2px;
+                font-weight: bold;
+                color: #0B6138;
+}
+
+div[data-testid="stSidebarNav"],
+div[data-testid="stSidebarNav"] ul,
+div[data-testid="stSidebarNav"] ul li,
+div[data-testid="stSidebarNav"] ul li:visited,
+div[data-testid="stSidebarNav"] ul li:hover,
+div[data-testid="stSidebarNav"] ul li:active {
+    padding: 10px 0;
+    color: #FFFFFF;
+    height: 27px;
+    font-size: 15px;
+}
+
+div[data-testid="stSidebarNavLink"],
+div[data-testid="stSidebarNavLink"] a,
+div[data-testid="stSidebarNavLink"] a:visited,{
+    color: #FFFFFF;
+    background-color: #CEE3F6;
+    margin: 0;
+    height: 20px;
+    font-size: 15px;
+}
+
+div[data-testid="stSidebarNavLink"] a:hover {
+    margin: 0;
+    background-color: #CEE3F6;
+    color: #FFFFFF !important;
+    height: 20px;
+    font-size: 15px;
+}
+
+div[data-testid="stSidebarNavLink"] a:active {
+    margin: 0;
+    color: #FFFFFF !important;
+    height: 20px;
+    font-size: 15px;
+}
+
