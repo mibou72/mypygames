@@ -258,12 +258,8 @@ elif st.session_state['human_player'] != "" :
 # Onclick clear reset game by deleting session state and create new one
 if clear:
     st.session_state.clear()
-    if 'zeileinput' not in st.session_state or st.session_state['zeileinput'] != 0:
-        st.session_state['zeileinput'] = 0
-    if 'spalteinput' not in st.session_state or st.session_state['spalteinput'] != 0:
-        st.session_state['spalteinput'] = 0
     if 'playername' not in st.session_state or st.session_state['playername'] != 0:
-        st.session_state['playername'] = 0
+        st.session_state['playername'] = ""
     st.rerun()
 
 
