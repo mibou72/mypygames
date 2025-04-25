@@ -88,7 +88,7 @@ wordlist = content.split('\n')
 f.close()
 
 #load external css file
-filepath = pathlib.Path(__file__).parent.parent / "css" / "style_hm.css"
+filepath = pathlib.Path(__file__).parent / "css" / "style_hm.css"
 load_css(filepath)
 
 if 'counter' not in st.session_state:
