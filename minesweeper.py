@@ -230,7 +230,7 @@ if 'game_over' not in st.session_state:
     st.session_state['game_over'] = False
 
 #load external css file
-filepath = pathlib.Path(__file__).parent.parent / "css" / "style_mw.css"
+filepath = pathlib.Path(__file__).parent / "css" / "style_mw.css"
 load_css(filepath)
 
 
