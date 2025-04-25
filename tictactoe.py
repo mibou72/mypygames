@@ -189,7 +189,7 @@ elif st.session_state['human_player'] != "" :
         #calculate playground
         sesstate_playground()
         brett = st.session_state.brett
-        update_sessionstate()
+
 
         #greetings and input fields
         with colc:
