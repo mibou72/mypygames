@@ -18,7 +18,7 @@ pages = {
         st.Page("pages/hangman.py", title="Hangman"),
         st.Page("pages/rock_scissors_paper_against_computer.py", title="Rock Scissors Paper"),
         st.Page("pages/tictactoe_against_computer.py", title="Tic Tac Toe"),
-        st.Page("page/minesweaper.py", title="Minesweaper"),
+        st.Page("page/minesweaper.py", title="Minesweeper"),
     ],
 
 }
