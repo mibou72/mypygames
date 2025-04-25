@@ -139,10 +139,10 @@ def initialize_session_state():
         st.session_state['game_over'] = False
     if 'brett' not in st.session_state:
         st.session_state['brett'] = ""
-    if 'zeileinput' not in st.session_state or st.session_state['zeileinput'] != 0:
-        st.session_state['zeileinput'] = 0
-    if 'spalteinput' not in st.session_state or st.session_state['spalteinput'] != 0:
-        st.session_state['spalteinput'] = 0
+    if 'cplay' not in st.session_state or st.session_state['cplay'] != 0:
+        st.session_state['cplay'] = 0
+    if 'rplay' not in st.session_state or st.session_state['rplay'] != 0:
+        st.session_state['rplay'] = 0
 
 
 st.markdown('**** Welcome to play Tic Tac Toe ****')
