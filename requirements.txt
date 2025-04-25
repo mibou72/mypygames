@@ -1,5 +1,2 @@
 streamlit~=1.43.0
 pandas~=2.2.3
-import pathlib
-random
-streamlit.components.v1
