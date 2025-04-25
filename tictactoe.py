@@ -237,9 +237,14 @@ elif st.session_state['human_player'] != "" :
                 with cole:
                     st.write("Go on!")
 
+      
         #show playground
-        brett = st.session_state.brett
-        update_sessionstate()
+        if "brett" is not in st.session_state:
+          sesstate_playground()
+          brett = st.session_state.brett
+        else:
+          brett = st.session_state.brett
+          update_sessionstate()
 
 
         #hide the submit button if game is over
