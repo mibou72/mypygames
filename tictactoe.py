@@ -243,12 +243,8 @@ elif st.session_state['human_player'] != "" :
 
       
         #show playground
-        if "brett" is not st.session_state:
-          sesstate_playground()
-          brett = st.session_state.brett
-        else:
-          brett = st.session_state.brett
-          update_sessionstate()
+        brett = st.session_state.brett
+        update_sessionstate()
 
 
         #hide the submit button if game is over
