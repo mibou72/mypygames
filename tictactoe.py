@@ -129,7 +129,7 @@ def update_sessionstate():
         )
 
 #load external css file
-filepath = pathlib.Path(__file__).parent.parent / "css" / "style_ttt.css"
+filepath = pathlib.Path(__file__).parent / "css" / "style_ttt.css"
 load_css(filepath)
 
 def initialize_session_state():
