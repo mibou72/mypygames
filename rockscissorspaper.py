@@ -146,7 +146,7 @@ def initialize_sessionstate():
 
 
 #load external css file
-filepath = pathlib.Path(__file__).parent.parent / "css" / "style_rsp.css"
+filepath = pathlib.Path(__file__).parent / "css" / "style_rsp.css"
 load_css(filepath)
 
 
