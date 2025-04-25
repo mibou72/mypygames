@@ -239,7 +239,7 @@ elif st.session_state['human_player'] != "" :
 
       
         #show playground
-        if "brett" is not in st.session_state:
+        if "brett" is not st.session_state:
           sesstate_playground()
           brett = st.session_state.brett
         else:
