@@ -12,18 +12,15 @@ load_css(filepath)
 
 
 
-pages = {
-    "": [
+pg = st.navigation([
         st.Page("welcome_page.py", title="Home"),
-        st.Page("pages/hangman.py", title="Hangman"),
-        st.Page("pages/rock_scissors_paper_against_computer.py", title="Rock Scissors Paper"),
-        st.Page("pages/tictactoe_against_computer.py", title="Tic Tac Toe"),
-        st.Page("page/minesweaper.py", title="Minesweeper"),
-    ],
+        st.Page("hangman.py", title="Hangman"),
+        st.Page("rockscissorspaper.py", title="Rock Scissors Paper"),
+        st.Page("tictactoe.py", title="Tic Tac Toe"),
+        st.Page("minesweeper.py", title="Minesweeper")
+])
 
-}
 
-pg = st.navigation(pages)
 pg.run()
 
 
