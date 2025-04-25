@@ -80,7 +80,7 @@ def reset_player_input():
     st.session_state['player_input'] = ""
 
 # open txt file with words, read into content, split to list and close
-filepath = pathlib.Path(__file__).parent.parent / "input_files" / "words.txt"
+filepath = pathlib.Path(__file__).parent / "input_files" / "words.txt"
 f = open(filepath, 'r')
 content = f.read()
 wordlist = content.split('\n')
