@@ -176,6 +176,7 @@ if st.session_state['human_player'] == "":
         st.write(f'I need your name to play!')
 elif st.session_state['human_player'] != "" :
     test = st.session_state['human_player']
+    update_sessionstate()
 
     #initialize form
     with st.form('form_ttt'):
